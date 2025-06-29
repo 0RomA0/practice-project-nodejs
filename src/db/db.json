@@ -2,31 +2,56 @@
   {
     "name": "Unbranded Cotton Cheese",
     "price": "262.29",
-    "category": "Garden",
-    "description": "New Soap model with 13 GB RAM, 643 GB storage, and harmful features"
+    "category": "Garden"
   },
   {
     "name": "Fantastic Cotton Car",
     "price": "214.85",
-    "category": "Kids",
-    "description": "The Secured methodical microservice Keyboard offers reliable performance and internal design"
+    "category": "Kids"
   },
   {
     "name": "Ergonomic Wooden Shoes",
     "price": "297.10",
-    "category": "Beauty",
-    "description": "Stylish Hat designed to make you stand out with genuine looks"
+    "category": "Beauty"
   },
   {
     "name": "Recycled Concrete Cheese",
     "price": "885.10",
-    "category": "Books",
-    "description": "Discover the rabbit-like agility of our Table, perfect for afraid users"
+    "category": "Books"
   },
   {
     "name": "Practical Metal Salad",
     "price": "685.75",
+    "category": "Sports"
+  },
+  {
+    "name": "Ergonomic Marble Ball",
+    "price": "418.30",
     "category": "Sports",
-    "description": "Savor the moist essence in our Keyboard, designed for shoddy culinary adventures"
+    "description": "The Future-proofed interactive capacity Shirt offers reliable performance and witty design"
+  },
+  {
+    "name": "Oriental Bamboo Chair",
+    "price": "392.89",
+    "category": "Electronics",
+    "description": "Introducing the Fiji-inspired Sausages, blending portly style with local craftsmanship"
+  },
+  {
+    "name": "Soft Ceramic Cheese",
+    "price": "339.10",
+    "category": "Baby",
+    "description": "The sleek and dismal Pizza comes with indigo LED lighting for smart functionality"
+  },
+  {
+    "name": "Ergonomic Gold Cheese",
+    "price": "985.39",
+    "category": "Computers",
+    "description": "Introducing the Bulgaria-inspired Tuna, blending sneaky style with local craftsmanship"
+  },
+  {
+    "name": "Handcrafted Silk Gloves",
+    "price": "474.79",
+    "category": "Beauty",
+    "description": "Discover the mad new Towels with an exciting mix of Bamboo ingredients"
   }
 ]

@@ -96,7 +96,6 @@ category3: [name4, name6],
 } -->
 
 3. Додайте до файлу package.json скрипт group-products для виконання коду з файлу src/scripts/groupProductsByCategories.js.
-
 4. Виконавши скрипт group-products, переконайтесь, що ваша функція group-products коректно групує назви продуктів за категоріями.
 
 <!--TODO  Задача 7 -->

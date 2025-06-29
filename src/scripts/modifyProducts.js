@@ -1,5 +1,5 @@
-// import { PATH_DB } from "../constants/products.js";
-// import fs from "node:fs/promises"
+import { PATH_DB } from "../constants/products.js";
+import fs from "node:fs/promises"
 
 
 // TODO  Задача 5
@@ -10,9 +10,13 @@
 // 3. Додайте до файлу package.json скрипт modify-products для виконання коду з файлу src/scripts/modifyProducts.js.
 // 4. Виконавши скрипт modify-products, переконайтесь, що ваша функція modifyProducts коректно перезаписує вміст файлу src/db/db.json.
 
-// const modifyProducts = async () => {
-//     const data = await fs.readFile(PATH_DB, { encoding: "utf-8" });
-//     const products = JSON.parse(data);
-// } 
+const modifyProducts = async () => {
+    const data = await fs.readFile(PATH_DB, { encoding: "utf-8" });
+    const products = JSON.parse(data);
+    const noDescriptionInProducts = products.map(({ description, ...rest }) => rest);
 
-// modifyProducts();
+    await fs.writeFile(PATH_DB, JSON.stringify(noDescriptionInProducts, null, 2))
+
+} 
+
+modifyProducts();
